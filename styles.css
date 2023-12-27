@@ -1,0 +1,111 @@
+*{
+    font-family: sans-serif;
+}
+#parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    flex: 1;
+    width: 100%;
+}
+#gameContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2022;
+    border-radius: 50px;
+    box-shadow: #1f2022;
+    width: 50%;
+    height: 100%;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+#displayText {
+    color: white;
+    margin: 1%;
+    padding-right: 2.5%;
+    font-size: 24px;
+}
+#display {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 5px;
+    height: 100%;
+    width: 90%;
+    background-color: #7ebab5;
+    margin: 5%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+#calculator {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 5%;
+    border-radius: 40px;
+    background-color: #2f3032;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+#btnContainer {
+    align-self: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap:10px;
+    margin-bottom: 5%;
+    padding-bottom: 5%;
+    width: 75%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.Cbtn {
+    height: 50px;
+    width: 50px;
+    margin: 15%;
+    background-color: #353a40;
+    color: #7ebab5;
+    font-size: 16px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+.BigBtn {
+    height: 50px;
+    width: 150px;
+    margin: 2.5%;
+    background-color: #353a40;
+    color: #7ebab5;
+    font-size: 16px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+#bigBtnCon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+
+}
